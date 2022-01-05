@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BB3B0E"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="80dp"
+        app:srcCompat="@drawable/logo_rasa_nusantara_hijau"/>
+
+    <Button
+        android:id="@+id/btn_menu"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView2"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="80dp"
+        android:text="Menu" />
+
+    <Button
+        android:id="@+id/btn_daftar"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_menu"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="25dp"
+        android:text="Registration"/>
+
+    <Button
+        android:id="@+id/btn_admin"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_daftar"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="25dp"
+        android:text="Admin"/>
+
+</RelativeLayout>
